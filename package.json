@@ -17,6 +17,10 @@
     "execute",
     "console"
   ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/georgemesseha/decova-terminal.git"
+  },
   "author": "decova",
   "license": "ISC",
   "dependencies": {
