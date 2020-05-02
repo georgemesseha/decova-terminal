@@ -1,0 +1,29 @@
+{
+  "name": "decova-terminal",
+  "version": "0.1.6",
+  "description": "It's a library for creating a cli tools. It wraps the great inquirer package in a more convenient way to use for .net and java developers. It also facilitates running commands as a part of your cli tool.",
+  "main": "index.js",
+  "scripts": {
+    "push": "tsc && npm publish",
+    "test": "tsc && node ./test/test.js"
+  },
+  "keywords": [
+    "cmd",
+    "command",
+    "cli",
+    "command-line-tool",
+    "programatically",
+    "exec",
+    "execute",
+    "console"
+  ],
+  "author": "decova",
+  "license": "ISC",
+  "dependencies": {
+    "@types/inquirer": "^6.5.0",
+    "@types/node": "^13.13.4",
+    "chalk": "^4.0.0",
+    "child-process": "^1.0.2",
+    "inquirer": "^7.1.0"
+  }
+}
